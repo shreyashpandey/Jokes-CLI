@@ -1,0 +1,17 @@
+{
+  "name": "test-airless-package",
+  "version": "1.2.1",
+  "description": "Testing npm deployment and versioning",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreyash Pandey <spandey548@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "tran": "./bin/index.js"
+  },
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
